@@ -21,7 +21,7 @@ import FrisbeeAPIInterceptor from 'frisbee-intercept'
 
 // create a new instance of Frisbee 
 const myAPI = new Frisbee({
-    baseURI: "http://myBaseURI.com.eg",
+    baseURI: "http://myBaseURI.com.eg/",
     headers: {
         'Accept': 'application/json',
         'Content-Type': 'application/json'
@@ -58,7 +58,7 @@ const unregister = myAPIInterceptor.register({
 });
 
 //make your requests to see interception in action
-myAPI.post(BravoAPIUrls.Login, { body: body });
+myAPI.post("Account/Login", { body: {} });
 
 // Unregister your interceptor
 unregister();
