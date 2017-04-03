@@ -67,3 +67,4 @@ unregister();
 ## Credits
 
 * This code was taken from [fetch-intercept](https://github.com/werk85/fetch-intercept) and adapted to work with frisbee APIs
+* This library was developed at [Codelabsys](http://www.codelabsys.com/)
