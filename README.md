@@ -6,7 +6,7 @@ Create Interceptors for your frisbee APIs so you can add headers to requests and
 
 ### Prerequisites
 
-As its name implies, [frisbee](https://github.com/crocodilejs/frisbee) should be installed to intercept it's requests. Follow the Installation steps in their repository.
+As its name implies, [frisbee](https://github.com/crocodilejs/frisbee) should be installed to intercept its requests. Follow the Installation steps in their repository.
 
 ### Installing
 
