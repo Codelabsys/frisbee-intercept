@@ -1,4 +1,5 @@
 # frisbee-intercept
+[![NPM](https://nodei.co/npm/frisbee-intercept.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/frisbee-intercept/)  
 Create Interceptors for your frisbee APIs so you can add headers to requests and pre-process the server reponses.
 
 ## Getting Started
