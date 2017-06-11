@@ -21,7 +21,7 @@ function FrisbeeAPIInterceptor(API) {
         // Register request interceptors
         reversedInterceptors.forEach(({ request, requestError }) => {
             if (request || requestError) {
-                promise = promise.then(args => request(...args), requestError);
+                promise = promise.then((path, ...args) => request(API.opts.baseURI + path, ...args), requestError);
             }
         });
 
